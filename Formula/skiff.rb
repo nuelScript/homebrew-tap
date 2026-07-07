@@ -7,22 +7,22 @@ class Skiff < Formula
   on_macos do
     on_arm do
       url "https://github.com/nuelScript/skiff/releases/download/v0.1.2/skiff-darwin-arm64"
-      sha256 "f9d01b877027185cda8774b739584c7fce163a7b7ad868842ae5cf4e99f3a2a4"
+      sha256 "e0b94ad607a2b6341c9b9d5004d2bc154cbd627b2a414de5629d84922eb3901a"
     end
     on_intel do
       url "https://github.com/nuelScript/skiff/releases/download/v0.1.2/skiff-darwin-amd64"
-      sha256 "0b8f07494897921b2414673afbc099859b86f9fb071b0ac214514f4da9e7647e"
+      sha256 "4e446b92572a58a31f8818f4fd63e0d9928c4be364d490e4210ef219793e4771"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nuelScript/skiff/releases/download/v0.1.2/skiff-linux-arm64"
-      sha256 "8a02796d8932d63d41fbbb117dda78c7e5ad15eb3096d1c3c6347932950f37ac"
+      sha256 "21341b5233dc6179a399e1305fecdae0c6994c9d9e7b35d018ac0cbc76d5b4b7"
     end
     on_intel do
       url "https://github.com/nuelScript/skiff/releases/download/v0.1.2/skiff-linux-amd64"
-      sha256 "71eb2462c56b02d3cd5f7d393493b59fa9bbd27f37413a51faff92466454593f"
+      sha256 "c5f5b05e09e37dd267f6d40829337f3ed687e3ac0d0f7bca59456fba5003f44b"
     end
   end
 
