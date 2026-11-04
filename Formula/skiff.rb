@@ -1,28 +1,28 @@
 class Skiff < Formula
   desc "Ship it to a server you own — push-to-deploy with automatic HTTPS"
   homepage "https://useskiff.xyz"
-  version "0.5.3"
+  version "0.5.4"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/nuelScript/skiff/releases/download/v0.5.3/skiff-darwin-arm64"
-      sha256 "62e5a0e57c739236a4bfd29314298e6e60f1e8ff49b8088dd30aaf52773afcc5"
+      url "https://github.com/nuelScript/skiff/releases/download/v0.5.4/skiff-darwin-arm64"
+      sha256 "db38c18190fcfddf774e07013c28ee339a1e34535a466decfa2d34967e591ca0"
     end
     on_intel do
-      url "https://github.com/nuelScript/skiff/releases/download/v0.5.3/skiff-darwin-amd64"
-      sha256 "c929ec50045972b95c5776dd561a18753ea334f7afce9241e8289a932ad9a187"
+      url "https://github.com/nuelScript/skiff/releases/download/v0.5.4/skiff-darwin-amd64"
+      sha256 "4a7414d81c8d6775fc0e1cd0c3dc66cb58f2ab5d6a3a3122deb4fe775ecff2c1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nuelScript/skiff/releases/download/v0.5.3/skiff-linux-arm64"
-      sha256 "7ef713fb38116bcfa502b9185838f83c02f915e1e00a61e51e817623cdc81965"
+      url "https://github.com/nuelScript/skiff/releases/download/v0.5.4/skiff-linux-arm64"
+      sha256 "6a4cca194c195ccc939213ec69a35f2b74f3ec0c235a7a335e53d36a2108ada5"
     end
     on_intel do
-      url "https://github.com/nuelScript/skiff/releases/download/v0.5.3/skiff-linux-amd64"
-      sha256 "bc0b2d6e8b272a1b064d9727db40827b59e940a6cfbec010a8569364679358cb"
+      url "https://github.com/nuelScript/skiff/releases/download/v0.5.4/skiff-linux-amd64"
+      sha256 "27a17bf2f1ae5971cb35d42b049a2be266c133e135b6ce67699531ad139dc9a2"
     end
   end
 
